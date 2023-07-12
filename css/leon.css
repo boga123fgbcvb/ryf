@@ -1,0 +1,176 @@
+.landing{
+    background-image: url(../images/moun.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+}
+
+.intro-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; 
+    width: 320px;
+    max-width: 100%;
+}
+.landing .intro-text h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--main-color);
+}
+.intro-text p{
+    font-size: 19px;
+    line-height: 1.8;
+}
+.fa-3x{
+    color: var(--main-color);
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.feat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    max-width: 300px;
+}
+.features .container {
+    background-color: var(--section-background);
+    width: 100%;
+    padding: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+.hed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.disc {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.thecon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.toppart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.dwonpart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.thfecol img {
+    border-style: none;
+    width: 200px;
+    height: 280px;
+}
+.part {
+    background-color: #2c4755;
+    margin-left: -50px;
+    width: 80px;
+    height: 350px;
+}
+.thfecol {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+i.fas.fa-palette.fa-2x ,
+i.fas.fa-vector-square.fa-2x,
+i.fab.fa-sketch.fa-2x,
+i.fas.fa-pencil-ruler.fa-2x
+{
+    color: var(--main-color);
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.thecon h4 {
+    margin-bottom: 0px;
+}
+.sacond.col {
+    display: flex;
+    flex-direction: column;
+    margin-top: -9px;
+}
+.secnum3 h1, .secnum4 h1 {
+    font-size: 5em;
+    margin: 0.67em 0;
+    margin-bottom: -38px;
+    color: #ebeced;
+}
+.secnum3 p {
+    opacity: 55%;
+}
+
+.first.col,
+.sacond.col,
+.thfecol.col {
+    padding: 0 35px;
+}
+.secnum4 img {
+    border-style: none;
+    width: 100%;
+}
+.secnum4 {
+    background-color: var(--section-background);
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.thecontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.theback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 280px;
+    margin: 0 15px;
+    background-color: #ffffff;
+}
+.cridt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.secnum4 p {
+    opacity: 80%;
+    font-size: small;
+    margin-top: -20px;
+    padding: 10px;
+}
+.secnum4 h3 {
+    padding-left: 10px;
+}
+.secnum4 h1 {
+    margin: 0.67em 0;
+    margin-bottom: -15px;
+}
+.mobo p {
+    margin-bottom: 40px;
+}
